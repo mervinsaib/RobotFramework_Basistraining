@@ -1,0 +1,11 @@
+**/geckodriver.log
+**/log.html
+**/output.xml
+**/report.html
+**/selenium-screenshot-*.png
+**/.project
+
+/libspecs/
+/RFtraining/libspecs/*
+/RFtraining/geckodriver-1.log
+/RFtraining/geckodriver*.log
