@@ -14,6 +14,6 @@ Opdracht3.2
 
 *** Keywords ***
 This Keyword Returns Random Numbers
-    ${ReturnedList} =    Random Generator
+    ${ReturnedList}    Random Generator
     Log List    ${ReturnedList}
     RETURN    ${ReturnedList}

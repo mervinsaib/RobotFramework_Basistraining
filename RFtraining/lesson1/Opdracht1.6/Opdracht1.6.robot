@@ -6,13 +6,13 @@ Library    Browser
 
 
 *** Variables ***
-${url}=           http://localhost:7272
-${browser}=       chromium
-${username}=     demo
-${correct_wachtwoord}=    mode
-${foutief_wachtwoord}=    edom
-${welkomstpagina}=    Welcome Page DEV
-${foutpagina}=    Error Page DEV
+${url}            http://localhost:7272
+${browser}        chromium
+${username}      demo
+${correct_wachtwoord}     mode
+${foutief_wachtwoord}     edom
+${welkomstpagina}     Welcome Page DEV
+${foutpagina}     Error Page DEV
 
 
 *** Test Cases ***
