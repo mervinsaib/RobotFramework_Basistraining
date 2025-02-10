@@ -1,12 +1,13 @@
 *** Settings ***
 Library    Collections
 
+
 *** Keywords ***
 Random Generator
-    ${generateList}=    Create List
-    FOR     ${index}    IN RANGE    0    25
-       Append to list    ${generateList}    ${index}    
-    END
-    
-    evaluate    random.shuffle($generateList)  random
-    [return]    ${generateList}
+   VAR    @{generateList}    @{EMPTY}
+   FOR     ${index}    IN RANGE    0    25
+       Append To List    ${generateList}    ${index}
+   END
+
+   Evaluate    random.shuffle($generateList)  random
+   RETURN    ${generateList}

@@ -1,4 +1,4 @@
-*** Settings ***  
+*** Settings ***
 Documentation    Bij een random gegenereerde lijst doe het volgende:
 ...              - Bepaal de lengte
 ...              - Kies een nummer en kijk op welke positie deze staat
@@ -7,12 +7,13 @@ Documentation    Bij een random gegenereerde lijst doe het volgende:
 
 Resource   Resources/RandomGenerator.resource
 
+
 *** Test Cases ***
 Opdracht3.2
 
 
 *** Keywords ***
-This keyword returns random numbers
-    ${ReturnedList} =    Random Generator
-    Log list    ${ReturnedList}
-    [Return]    ${ReturnedList}
+This Keyword Returns Random Numbers
+    ${ReturnedList}    Random Generator
+    Log List    ${ReturnedList}
+    RETURN    ${ReturnedList}

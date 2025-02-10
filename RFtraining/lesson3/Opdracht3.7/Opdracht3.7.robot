@@ -17,7 +17,7 @@ ${Actual_2}      ${CURDIR}\\Actual 2.csv
 *** Test Cases ***
 Opdracht3.7a Vergelijk de eerste set bestanden
     Comment    laad twee bestanden in en vergelijk deze
-    
+
 Opdracht3.7b Vergelijk de tweede set bestanden
     Comment    laad twee bestanden in en vergelijk deze
 
@@ -27,4 +27,3 @@ Opdracht3.7c Vergelijk de tweede set bestanden op regel niveau
 
 Opdracht3.7 bonus Vergelijk de tweede set bestanden op regel niveau en geef zowel de oude als de nieuwe positie terug in een apart log bestand
     Comment    Maak gebruik van je opgedane kennis over loopjes en controles om deze opdracht te maken
-    
