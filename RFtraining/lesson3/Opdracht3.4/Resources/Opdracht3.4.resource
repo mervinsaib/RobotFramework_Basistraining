@@ -1,6 +1,7 @@
 *** Settings ***
 Library    Browser
 
+
 *** Keywords ***
 Open de login pagina
     Open Browser    http://localhost:7272

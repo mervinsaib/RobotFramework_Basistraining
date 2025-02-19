@@ -1,12 +1,12 @@
 *** Settings ***
 Documentation    Hieronder staan de twee validatie tests uit de eerdere opdracht.
-...    Maak je test flexibeler, gebruik variabelen voor:​
-...    - Browser​
-...    - Username veld​
-...    - Password veld​
-...    - Etc.
-...    Bonus:​
-...    - Maak gebruik van een lijst variabele, wees creatief!​
+...              Maak je test flexibeler, gebruik variabelen voor:​
+...              - Browser​
+...              - Username veld​
+...              - Password veld​
+...              - Etc.
+...              Bonus:​
+...              - Maak gebruik van een lijst variabele, wees creatief!​
 
 Library     Browser
 

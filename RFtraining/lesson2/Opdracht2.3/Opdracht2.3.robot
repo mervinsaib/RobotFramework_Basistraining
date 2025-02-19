@@ -1,9 +1,10 @@
 *** Settings ***
-Resource    Resources/Opdracht2.3.resource
 Documentation    Naast de demo-omgeving DEV (port 7272) is er ook een op TEST (port 2727)
 ...              Maak een robot.toml bestand met daarin een placeholder voor de omgevingsvariabele
 ...              en een profiel voor elke omgeving​
 ...              Run de testgevallen voor beide omgevingen via de test explorer en via de commandline
+
+Resource    Resources/Opdracht2.3.resource
 
 
 *** Test Cases ***
