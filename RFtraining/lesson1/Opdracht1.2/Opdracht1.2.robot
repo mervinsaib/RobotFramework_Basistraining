@@ -27,5 +27,3 @@ Library    Browser
 
 *** Test Cases ***
 Opdracht1.2
-    VAR   @{q}    1    2    3    4
-    Log To Console   ${q}[-2]

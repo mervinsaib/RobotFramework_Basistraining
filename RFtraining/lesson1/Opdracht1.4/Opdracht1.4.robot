@@ -1,6 +1,6 @@
 *** Settings ***  
 Documentation    Zorg dat een aantal stappen in je testgeval door functies / keywords worden uitgevoerd.
-          ...    Pas dit toe bij de testgevallen uit de eerdere opdracht.
+...              Pas dit toe bij de testgevallen uit de eerdere opdracht.
 
 Library    Browser
 
