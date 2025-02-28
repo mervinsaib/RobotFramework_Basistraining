@@ -1,10 +1,6 @@
 *** Settings ***
-Documentation    Creëer een drietal keywords met daarin functies:​
-...              - Preconditie​
-...              - Actie​
-...              - Resultaat​
-...              Definieer één keyword en gebruik daarin de andere Gherkin keywords​
-...              Roep het Gherkin keyword aan in je testgevallen​
+Documentation    Verplaats alle keywords, libraries en variabelen uit je test suite naar resource bestand(en).
+...              Importeer één of meerdere resource bestanden om testsuite weer te laten werken.​
 
 Library    Browser
 
