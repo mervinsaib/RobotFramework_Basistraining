@@ -3,13 +3,9 @@ Dit project bevat de oefenopgaven voor de Robot Framework basistraining. De inst
 
 # Voorbereiding
 Om Robot Framework te kunnen installeren, moet het volgende al zijn geïnstalleerd:
-1. NodeJS
-2. Python (>=3.8)
-3. VS Code (nieuwste versie)
-Heb je bovenstaande nog niet geïnstalleerd, dan kan dat met chocolatey:
-- Open een Power shell window vanuit de root van dit project en voer chocolatey_install.ps1 uit
-  (overslaan als je chocolatey al hebt geinstalleerd)
-- Voer  vervolgens traineeship.bat uit
+1. NodeJS (>=18): <https://nodejs.org/en/download>
+2. Python (>=3.8): <https://www.python.org/downloads/>
+3. VS Code (nieuwste versie): <https://code.visualstudio.com/download>
 
 # VS Code en Robot Framework
 Open nu VS Code. Voor Robot Framework moet je een plugin installeren. Ga naar extensions (Ctrl-shift-X) en zoek op RobotCode.
