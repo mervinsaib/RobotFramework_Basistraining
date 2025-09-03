@@ -10,3 +10,5 @@
 /RFtraining/geckodriver-1.log
 /RFtraining/geckodriver*.log
 /.venv/
+venv/
+results/
