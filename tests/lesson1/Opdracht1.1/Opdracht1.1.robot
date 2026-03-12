@@ -30,8 +30,8 @@ Wait until argument visible
 *** Test Cases ***
 Open bartosz.nl in een browser
     New Page    ${url_bartosz}
-    Wait until argument visible    ${button_accept_cookie}
-    Accept Cookies homepage
+    # Wait until argument visible    ${button_accept_cookie}
+    # Accept Cookies homepage
     Wait until argument visible    ${hamburgermenu}
     Click    ${hamburgermenu}
     # Wait until argument visible    ${side_nav}
