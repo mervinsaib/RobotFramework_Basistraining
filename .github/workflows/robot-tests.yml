@@ -40,7 +40,7 @@ jobs:
 
     # 6️⃣ Upload de testresultaten als artifacts
     - name: Upload RobotFramework results
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
         name: robot-results
         path: results/
