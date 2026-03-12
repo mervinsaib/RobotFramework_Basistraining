@@ -4,7 +4,7 @@ Documentation    Voer een eerste testgeval uit, en zorg dat deze een browser ope
 ...              Let op: Er zijn meerdere manieren om een testgeval in Eclipse te starten.
 
 Library    Browser
-Suite Setup    New Browser    chromium    headless=True
+Suite Setup    New Browser    chromium    headless=False
 
 
 *** Variables ***
@@ -32,10 +32,9 @@ Open bartosz.nl in een browser
     New Page    ${url_bartosz}
     Wait until argument visible    ${button_accept_cookie}
     Accept Cookies homepage
-    # Sleep    5s
     Wait until argument visible    ${hamburgermenu}
     Click    ${hamburgermenu}
-    Wait until argument visible    ${side_nav}
+    # Wait until argument visible    ${side_nav}
     Sleep    3s
     
     
