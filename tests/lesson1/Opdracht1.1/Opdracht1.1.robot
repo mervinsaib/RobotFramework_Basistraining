@@ -4,7 +4,7 @@ Documentation    Voer een eerste testgeval uit, en zorg dat deze een browser ope
 ...              Let op: Er zijn meerdere manieren om een testgeval in Eclipse te starten.
 
 Library    Browser
-Suite Setup    New Browser    chromium    headless=False
+Suite Setup    New Browser    chromium    #headless=True
 
 
 *** Variables ***
