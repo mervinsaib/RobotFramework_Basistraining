@@ -1,0 +1,46 @@
+name: RobotFramework CI
+
+# Trigger de workflow bij push naar main of pull request
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  robot-tests:
+    runs-on: ubuntu-latest
+
+    steps:
+    # 1️⃣ Haal de code op
+    - name: Checkout repository
+      uses: actions/checkout@v3
+
+    # 2️⃣ Installeer Python
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.12'
+
+    # 3️⃣ Installeer RobotFramework en andere dependencies
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install robotframework
+        pip install -r requirements.txt || echo "Geen requirements.txt gevonden"
+
+    # 4️⃣ Maak de map voor testresultaten
+    - name: Create results directory
+      run: mkdir -p results
+
+    # 5️⃣ Run alle tests in tests/ map
+    - name: Run RobotFramework tests
+      run: |
+        robot -d results tests/
+
+    # 6️⃣ Upload de testresultaten als artifacts
+    - name: Upload RobotFramework results
+      uses: actions/upload-artifact@v3
+      with:
+        name: robot-results
+        path: results/
