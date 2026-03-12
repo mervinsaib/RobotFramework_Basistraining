@@ -1,5 +1,7 @@
 *** Settings ***  
-Documentation    Zorg dat een aantal stappen in je testgeval door functies / keywords worden uitgevoerd.
+Documentation    DOCUMENTNAAM TIJDELIJK .robotPAUSE zodat deze tests niet automatisch 
+...    draaien tijdens een commit push naar GitHub repository  
+...    Zorg dat een aantal stappen in je testgeval door functies / keywords worden uitgevoerd.
 ...              Pas dit toe bij de testgevallen uit de eerdere opdracht.
 
 Library    Browser

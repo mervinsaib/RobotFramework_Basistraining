@@ -1,5 +1,7 @@
 *** Settings ***
-Documentation    Verplaats alle keywords, libraries en variabelen uit je test suite naar resource bestand(en).
+Documentation    DOCUMENTNAAM TIJDELIJK .robotPAUSE zodat deze tests niet automatisch 
+...    draaien tijdens een commit push naar GitHub repository      
+...    Verplaats alle keywords, libraries en variabelen uit je test suite naar resource bestand(en).
 ...              Importeer één of meerdere resource bestanden om testsuite weer te laten werken.​
 
 Library    Browser

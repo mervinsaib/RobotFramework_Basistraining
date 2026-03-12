@@ -1,5 +1,9 @@
+
+
 *** Settings ***
-Documentation    Start voor deze test de DemoApp. Open hiervoor de folder demoapp_dev in een command prompt
+Documentation    DOCUMENTNAAM TIJDELIJK .robotPAUSE zodat deze tests niet automatisch 
+...    draaien tijdens een commit push naar GitHub repository
+...    Start voor deze test de DemoApp. Open hiervoor de folder demoapp_dev in een command prompt
 ...    en run: python server.py
 ...    Op http://localhost:7272 draait nu een webpagina waarop je kunt inloggen.
 ...    Maak een test waarmee je succesvol inlogt of één waar het inloggen faalt.
