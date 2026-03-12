@@ -28,17 +28,22 @@ jobs:
         python -m pip install --upgrade pip
         pip install robotframework
         pip install -r requirements.txt || echo "Geen requirements.txt gevonden"
+    
+    # 4️⃣ RF-Browser afhankelijkheden
+    - name: Initialize RF-Browser dependencies
+      run: |
+        rfbrowser init
 
-    # 4️⃣ Maak de map voor testresultaten
+    # 5️⃣ Maak de map voor testresultaten
     - name: Create results directory
       run: mkdir -p results
 
-    # 5️⃣ Run alle tests in tests/ map
+    # 6️⃣ Run alle tests in tests/ map
     - name: Run RobotFramework tests
       run: |
         robot -d results tests/
 
-    # 6️⃣ Upload de testresultaten als artifacts
+    # 7️⃣ Upload de testresultaten als artifacts
     - name: Upload RobotFramework results
       uses: actions/upload-artifact@v4
       with:
